@@ -1,0 +1,19 @@
+{
+  "name": "applitools-merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./.tmp_ConvertedJS/testMergeHelper.js",
+    "merge": "tsc && node ./.tmp_ConvertedJS/mergeBranches.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.3.4",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  }
+}

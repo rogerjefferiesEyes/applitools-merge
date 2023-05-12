@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ESNEXT",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "inlineSourceMap": true,
+        "declaration": false,
+        "resolveJsonModule": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "allowJs": false,
+        "outDir": ".tmp_ConvertedJS",
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        ".tmp_ConvertedJS"
+    ]
+}
